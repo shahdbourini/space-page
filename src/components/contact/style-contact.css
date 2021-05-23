@@ -1,0 +1,111 @@
+/* .contact {
+    background-image: url("../../images/contact.png");
+    height:400px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}*/
+
+
+  .image {
+    
+    background-image: url("../../images/contact.png");
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+
+.ant-btn-lg {
+    height: 60px;
+    width: 50%;
+    border-radius: 9px;
+    background-color: #957BAA;
+    color:white;
+    border: none;
+}
+
+.image h1{
+    color:white;
+}
+
+@media screen and (min-width: 1200px) {
+    .image {
+        height: 280px;
+        
+    }
+  }
+
+@media screen and (max-width: 1017px) {
+    .image {
+        height: 240px;
+        
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .image {
+        height: 220px;
+        
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .image {
+        height: 180px;
+        
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .image {
+        height: 160px;
+        
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .image {
+        height: 140px;     
+    }
+    .image h1{
+        font-size: 13px;
+     }
+  }
+
+  @media screen and (max-width: 500px) {
+    .image {
+        height: 100px;
+        
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .image {
+        height: 80px;
+        
+    }
+    .image h1{
+       font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .image {
+        height: 70px;
+        
+    }
+  }

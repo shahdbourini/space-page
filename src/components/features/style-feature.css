@@ -1,0 +1,18 @@
+.title{
+    text-decoration: underline;
+    text-decoration-color: #FAD98A;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title img{
+    width: 81%;
+    margin-top: 75px;
+}
+
+.box-feature{
+    border-radius: 8px;
+    padding-left: 7%;
+    border: 2px solid #957baa;
+    border-radius: 5px;
+}

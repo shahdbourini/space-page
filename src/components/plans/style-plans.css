@@ -1,0 +1,100 @@
+.details{
+    list-style: none;
+    margin-top: 32px;
+    left: -16px;
+    position: relative;
+    font-size: 12px;
+}
+
+.details li{
+    padding-bottom: 1rem;
+    color: #7b7676;
+}
+
+
+.plan-title{
+    padding-top: 31px;
+    margin-left: 20%;
+}
+
+.plans{
+ padding-left: 22%;
+  padding-top: 45px ;
+}
+
+  
+
+  .btn3{
+    margin-left: 16%;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    background: #957baa;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .plan-title:before {
+    content: ' ';
+    display: block;
+    width: 47%;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    top: 66px;
+    color: #957baa;
+  }
+
+.style2{
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.style2 h6{
+ font-size: 12px;
+ padding-left: 14px;
+}
+  
+ .left{
+  background: #fad98a;
+    display: inline-block;
+    height: 196px;
+    width: 86px;
+    border-bottom-left-radius: 90px;
+    border-top-left-radius: 90px;
+    position: absolute;
+    left: -9%;
+    top: 96px;
+ }
+
+ .right{
+  background: #fad98a;
+    display: inline-block;
+    height: 196px;
+    width: 86px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    position: absolute;
+    right: -9%;
+    top: 96px;
+ }
+
+ @media screen and (max-width: 920px) and (min-width: 767px) {
+  .style2 h4{
+    font-size: 15px;
+   }
+}
+@media screen and (max-width: 920px) and (min-width: 767px) {
+  .style2 h6{
+    font-size: 11px;
+   }
+}
+
+@media screen and (max-width: 920px) and (min-width: 767px) {
+  .plan-title:before {
+    top: 47px;
+  }
+}

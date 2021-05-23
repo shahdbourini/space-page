@@ -1,0 +1,17 @@
+.box-event{
+    background: burlywood;
+    border-radius: 10px;
+    height: 328px;
+}
+
+.box-event h3{
+    text-align: center;
+    position: relative;
+    top: 124px;
+}
+
+.box-event p{
+    position: relative;
+    top: 252px;
+    text-align: center;
+}

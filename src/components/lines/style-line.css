@@ -1,0 +1,43 @@
+.line1 {
+    content: ' ';
+    display: block;
+    width: 50%;
+    height: 0;
+    border-width: 0 0 4px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    top: 77px;
+    color: #fad98a;
+    float: right;
+  }
+
+  .line2 {
+    content: ' ';
+    display: block;
+    width: 70%;
+    height: 0;
+    border-width: 0 0 4px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    top: 95px;
+    color: #fad98a;
+    float: right;
+  }
+
+  .line3 {
+    content: ' ';
+    display: block;
+    width: 38%;
+    height: 0;
+    border-width: 0 0 4px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    top: 115px;
+    color: #fad98a;
+    float: right;
+  }
+
+ 

@@ -1,0 +1,308 @@
+.main{
+    margin-bottom: 182px;
+    background-image: url("../../images/main.png");
+    background-size: 89%;
+    height: 940px;
+    border-top-left-radius: 64%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.main:before {
+    content: ' ';
+    display: block;
+    width: 47%;
+    height: 0;
+    border-width: 0 0 5px;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 100px;
+    color: #FAD98A;
+  }
+/* 
+.main-img{
+    width: 89%;
+    height: 940px;
+    border-top-left-radius: 57%;
+    margin-left: 11%;
+} */
+
+.box{
+    background-color: #ffffff;
+    height: 434px;
+    margin-top: 161px;
+    border-radius: 3%;
+    box-shadow: 2px 0px 5px 2px #888888;
+}
+
+.box:before {
+    content: ' ';
+    display: block;
+    width: 39%;
+    height: 0;
+    border-width: 0 0 5px;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 148px;
+    color: #FAD98A;
+  }
+
+.box h4{
+    padding-top: 59px;
+    padding-left: 48px;
+}
+.box p{
+    padding-top: 20px;
+    padding-left: 48px;
+    width: 46%;
+    color:#957BAA;
+}
+
+.box span{
+    margin-left: 9%;
+}
+.title-select{
+    display: block;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.ant-select-lg {
+    font-size: 16px;
+    margin-left: 10%;
+    margin-top: 8px;
+    box-shadow: 0px 0px 4px 0px #c3bbbb;
+
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+    height: 58px;
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+    padding: 8px 0px;
+}
+
+.button{
+    margin-top:23px;
+}
+
+.button .ant-btn-lg {
+    height: 60px;
+    width: 30%;
+    border-radius: 9px;
+    background-color: #957BAA;
+    color: white;
+    border-color: none;
+    margin-left: 10%;
+}
+.button .ant-btn-lg .btn2 {
+    height: 60px;
+    width: 30%;
+    border-radius: 9px;
+    background-color: white;
+    color: #957BAA;
+    border-color: #957BAA;
+    margin-left: 10%;
+}
+
+.circle {
+    height: 51px;
+    width: 54px;
+    background-color: #957baa;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 361px;
+  }
+
+  .arrow{
+    color: white;
+    margin-left: 34%;
+    font-size: 21px;
+    line-height: -8px;
+    margin-top: 12px
+  }
+
+  @media screen and (max-width: 986px) and (min-width: 320px) {
+    .main{
+        margin-bottom: 120px;
+        height: 940px;
+        border-top-left-radius: 0;
+    }
+    .box:before {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) and (min-width: 320px) {
+    .main{
+        margin-bottom: 20px;
+        background-size: 100%;
+        height: 1000px;
+        border-top-left-radius: 0;
+    }
+  }
+
+  @media screen and (max-width: 444px) and (min-width: 320px) {
+    .main{
+        margin-bottom: 20px;
+        background-size: 100%;
+        height: 241px;
+        border-top-left-radius: 0;
+    }
+    .box {
+        height: 190px;
+        margin-top: 9px;
+    } 
+    
+    .box h4 {
+        padding-top: 14px;
+        padding-left: 13px;
+        font-size: 11px;
+    }
+    
+    .box p {
+        padding-top: 3px;
+        padding-left: 13px;
+        width: 100%;
+        font-size: 9px;
+    }
+    
+    .ant-select-single.ant-select-lg:not(.ant-select-customize-input):not(.ant-select-customize-input) .ant-select-selection-search-input {
+        height: 35px;
+    }
+    .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+        padding: 0px 0px;
+    }
+    .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+        height: 27px;
+    }
+    .button .ant-btn-lg {
+        height: 27px;
+        width: 36%;
+        margin-left: 8%;
+        line-height: 2px;
+        padding-right: 0px;
+    }
+
+    .title-select {
+        margin-left: 7%;
+        margin-top: 0px;
+        font-size: 9px;
+    }
+    .box span {
+        margin-left: 7%;
+        font-size: 8px;
+        padding-right: 8%;
+        margin-top: -3px;
+    }
+  }
+
+  @media screen and (max-width: 575px) and (min-width: 443px) {
+    .main{
+    margin-bottom: 104px;
+    background-size: 100%;
+    height: 327px;
+    border-top-left-radius: 0
+    }
+    .box {
+        background-color: #ffffff;
+        height: 255px;
+        margin-top: 6%;
+    }
+    
+    .box h4 {
+        padding-top: 5%;
+        padding-left: 4%;
+        font-size: 12px;
+    }
+    
+    .box p {
+        padding-top: 2%;
+        padding-left: 5%;
+        width: 78%;
+        font-size: 11px;
+    }
+    
+    .box span{
+        margin-left: 4%;
+        font-size: 13px;
+    }
+    
+    .title-select {
+        display: block;
+        margin-left: 9%;
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    
+    .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+        padding: 8px 0px;
+    }
+    
+    .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+        height: 45px;
+    }
+    
+    .button .ant-btn-lg {
+        height: 46px;
+        width: 30%;
+        border-radius: 9px;
+        margin-left: 10%;
+    }
+
+}
+
+
+
+
+
+  @media screen and (max-width: 766px) and (min-width: 576px) {
+    .main{
+        margin-bottom: 100px;
+        background-size: 100%;
+        height: 374px;
+        border-top-left-radius: 0;
+    }
+    .box {
+        height: 322px;
+        margin-top: 6%;
+    }
+    
+    .box h4 {
+        padding-top: 5%;
+        padding-left: 48px;
+    }
+    
+    .box p {
+        padding-top: 1%;
+        padding-left: 48px;
+        width: 67%;
+    }
+    .title-select {
+        margin-left: 9%;
+        margin-top: 2%;
+    }
+  }
+
+
+  @media screen and (max-width: 986px) and (min-width: 766px) {
+
+        .main {
+            margin-bottom: 100px;
+            background-size: 100%;
+            height: 524px;
+            border-top-left-radius: 0;
+        }
+    .box {
+        height: 434px;
+        margin-top: 17%;
+    }
+}
+ 
+  

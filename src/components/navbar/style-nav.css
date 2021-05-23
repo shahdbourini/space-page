@@ -1,0 +1,32 @@
+.navbar-light .navbar-nav .nav-link {
+
+    color: #000000;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.navbar-collapse {
+    height: 68px;
+    background: white;
+}
+
+.ml-auto, .mx-auto {
+    margin-right: 5%;
+}
+
+.navbar-nav .nav-item a:active{
+    text-decoration: underline;
+    text-decoration-color: #FAD98A;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-left: 4rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
